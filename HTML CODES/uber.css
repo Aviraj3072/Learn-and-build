@@ -1,0 +1,61 @@
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .first
+            {
+                font-family: Arial;
+                font-size: 40px;
+                margin-bottom: 25px;
+            }
+            .second
+            {
+               display:block;
+               background-color: rgb(240, 240, 240);
+               border: none;
+               margin-bottom: 10px;
+               padding-left: 20px;
+               padding-top: 15px;
+               padding-right: 20px;
+               padding-bottom: 15px;
+               font-size: 16px;
+               width: 400px;
+            }
+            .third
+            {
+                display:block;
+               background-color: rgb(240, 240, 240);
+               border: none;
+               margin-bottom: 10px;
+               padding-left: 20px;
+               padding-top: 15px;
+               padding-right: 20px;
+               padding-bottom: 15px;
+               font-size: 16px;
+               width: 400px;    
+            }
+            .fourth
+            {
+                background-color:black;
+               color: white;
+               border: none;
+               padding-top: 15px;
+               padding-bottom: 15px;
+               padding-left: 25px; 
+               padding-right: 25px;
+               font-size: 16px;
+               margin-right: 20px;
+            }
+            .fifth
+            {
+                background-color: rgb(240, 240, 240);
+                color: black;
+                padding-left: 25;
+                padding-right: 25px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-size: 16px;
+                border: none;
+            }
+
+        

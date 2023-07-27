@@ -1,0 +1,56 @@
+
+             p{
+                font-family: Arial, Helvetica, sans-serif;
+                display: inline-block;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .img1{
+                width: 300px;
+                border-radius: 10px;
+                display:inline-block;
+            }
+            
+            
+            .box
+            {
+                padding-left: 16px;
+                padding-right: 16px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                font-size: 16px;
+                display:block;
+                margin-bottom: 20px;
+                
+            }
+            .video-preview1{
+                display: inline-block;
+                width: 300px;
+                vertical-align: 15px;
+                vertical-align: top;
+            
+                
+            }
+            .video-grid{
+                display:grid;
+                grid-template-columns: 50px 1fr;
+
+            }
+            .channel-picture{
+                display: inline-block;
+                width: 50px;
+            }
+            .video-info{
+                display:inline-block;
+                width: 200px;
+            
+            }
+            .profile-pic{
+                border-radius: 100%;
+            }
+            .img1{
+                width: 300px;
+            }
+            .top1{
+                size: 12px;
+            }

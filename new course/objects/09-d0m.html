@@ -1,0 +1,48 @@
+<!-- DOM "Document Object Method"-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button>Hello</button>
+    <button class="js-button"> Second button </button>
+    <script>
+        console.log(document.querySelector('button').innerHTML);
+        document.querySelector('button')
+            .innerHTML = 'Chamged'; 
+            
+            const buttonElement = document.querySelector('.js-button');
+            console.log(buttonElement);
+
+        /*
+        console.log(document.title);
+            document.title = 'Changed';
+        */
+        
+            /* THE DOM COMBINES JAVASCRIPT AND HTML TOGETHER*/
+
+        /*console.log(document.body);
+         console.log(typeof document.body);
+        */
+        
+        
+            /* innerHTML tag control all the html inside the body*/
+        /*
+        console.log(document.body.innerHTML);
+            document.body.innerHTML = '<button>Good</button>';
+        */ 
+
+
+            /* document also as methods */
+
+         /*document.body.innerHTML = 'Hello';
+        document.title = 'Good job!';
+        */
+        
+    </script>
+</body>
+</html>
