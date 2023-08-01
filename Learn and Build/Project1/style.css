@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Project1/bg/neom-ihIKOg_lHgI-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+nav .logo{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 40px;
+}
+nav{
+    height: 70px;
+    background: #063247;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1); 
+    opacity: 0.6;
+    z-index: 1;
+}
+nav ul{
+    margin-right: 30px;
+    z-index: 1;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #063247;
+    z-index: 1;
+}
+nav ul ul{
+    position: absolute;
+    top: 85px;
+
+border-top: 3px solid #23dbdb;
+opacity: 0;
+visibility: hidden;
+}
+nav ul li:hover>ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+    z-index: 1;
+}
+nav ul ul li{
+    width: 218px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav ul ul ul {
+    border-top: none;
+}
+nav ul ul ul li{
+    position: relative;
+    top:-70px;
+    left: 220px;
+}
+nav ul ul li a i{
+margin-left: 30px;
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-family:f;
+    font-size: 30px;
+    
+
+}
+.sub{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.Courses
+    {
+        background-color: rgb(10 102 194);
+        color: aliceblue;
+        border: none;
+        height: 40px;
+        width: 160px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+        position: absolute;
+        top: 70%;
+        right: 72%;
+        transform: translate(-50%, -50%);
+        color: white;
+        margin-top: 5px;
+    }
+    .c2{
+        position: absolute;
+        top: 60%;
+        right: 49.5%;
+        transform: translate(-50%, -50%);
+        margin-top: 10px;
+        background-color: rgb(30, 61, 92);
+        color: aliceblue;
+        border: none;
+        width: 350px;
+        height: 50px;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+        margin-top: 10px; 
+    }
+    
+    .container1{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../Project1/bg/peter-herrmann-9dGl-1kA0H8-unsplash.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        }
+
+        @media (min-width: 675px) {
+            
+            
+
+        }
